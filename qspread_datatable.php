@@ -383,7 +383,7 @@ Fin de la Function : qs_liste_invitations
         	{ data: "wp_qspread_invite.nom_invite" },
             { data: "wp_qspread_invite.email" },
             { data: "wp_qspread_invitation.nom_invitation" },
-            { data: "wp_qspread_statut.type_statut" } ,
+            { data: "wp_qspread_reponse.txt_reponse" } ,
 
             { data: "wp_qspread_invite.date_invitation" }
         ],
@@ -455,7 +455,7 @@ Fin de la Function : qs_liste_invitations
 									<th>nom_invite</th>
 									<th>email</th>
 									<th>invitation</th>
-									<th>statut</th>
+									<th>réponse</th>
 									<!-- <th>parrain</th> -->
 									<th>date de l'invitation</th>
 								</tr>
