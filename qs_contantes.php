@@ -11,6 +11,8 @@ define("DONNEES_SERVICE_ENCOURS_EN_LECTURE", 0);
 define("DONNEES_SERVICE_ENCOURS_LUES", 31);
 define("DONNEES_SERVICE_ENCOURS_TRAITEES", 32);
 
+define("PROVIDER_email", "email");
+
 
 define("SERVICE_email", 0);
 define("SERVICE_YAHOO", 1);

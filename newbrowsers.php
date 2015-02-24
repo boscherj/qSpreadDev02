@@ -73,5 +73,5 @@ Editor::inst( $db, 'wp_qspread_invite' ) // Nom de la BdD et celui de la table
 	 
 	->process( $_POST )
 	// https://editor.datatables.net/docs/Editor-1.3.3/php/source-class-DataTables.Editor.html#147
-	 // ->data()
+	// ->data()
 	->json();

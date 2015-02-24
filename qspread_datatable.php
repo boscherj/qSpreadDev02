@@ -309,7 +309,7 @@ Fin de la Function : qs_liste_invitations
                 label: "<b>SERVICE :</b>",
                 name: "wp_qspread_invite.service",
                 type: "hidden",
-                def: <?php echo SERVICE_email ?>
+                def: "<?php echo PROVIDER_email ?>"
             }                       
                    
             ],
