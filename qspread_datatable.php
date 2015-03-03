@@ -333,7 +333,7 @@ Fin de la Function : qs_liste_invitations
 							// console.log(o.data.date_invitation) ; 
 							
 							// var d = new Date(o.data.date_invitation);
-							// console.log(d) ; 
+							// console.log(o) ; 
                        		
                       		if(o.action=="create"){
                       			// o.data.statut = 3 ; Je pense que la ligne ci-dessous n'est pas prise en compte  
@@ -342,6 +342,11 @@ Fin de la Function : qs_liste_invitations
                       			qs_invitation_transmise = <?php echo INVITATION_TRANSMISE_NON ?> ;
                       			o.data.wp_qspread_invite.invitation_transmise = <?php echo INVITATION_TRANSMISE_NON ?> ;
                       		}
+                      		
+                      		if(o.action=="edit"){
+                      			o.data.wp_qspread_invite.invitation_transmise = <?php echo INVITATION_TRANSMISE_NON ?> ;
+                      		}
+                      		
 						 	return true;
            		} // Fin de onPreSubmit
            		
